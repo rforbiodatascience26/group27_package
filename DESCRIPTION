@@ -1,0 +1,16 @@
+Package: CentralDogma
+Type: Package
+Title: Simulates the Central Dogma of Molecular Biology
+Version: 0.1.0
+Authors@R: 
+    c(person("Rasmus", "Søgaard Nielsen", , "s235408@student.dtu.dk", role = c("aut", "cre")),
+      person("Jonas", "Branner", , "s224191@student.dtu.dk", role = "aut"),
+      person("Marie", "Nongnapas Holldorff", , "s234677@student.dtu.dk", role = "aut"),
+      person("Marcos", "Ortiz Prieto", , "s263502@student.dtu.dk", role = "aut"))
+Description: A simple R package that replicates the central dogma of
+    molecular biology — transcription of DNA to RNA and translation of
+    RNA to protein — built collaboratively as part of the DTU course
+    R for Bio Data Science.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
