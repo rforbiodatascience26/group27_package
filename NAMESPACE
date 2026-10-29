@@ -3,3 +3,4 @@
 export(generate_dna_sequence)
 export(split_into_codons)
 export(transcribe)
+export(translation)
