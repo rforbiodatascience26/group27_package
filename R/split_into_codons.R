@@ -1,9 +1,9 @@
 #' Splitting into Codons
 #'
-#' @param rna_string a character string, could also be a dna string
+#' @param rna_string a character string
 #' @param start indicates where in the string the function starts
 #'
-#' @returns a substring of the original character string where the characters are divided into groups of three
+#' @returns a vector of codons of the original character string where the characters are divided into groups of three
 #' @export
 #'
 #' @examples
