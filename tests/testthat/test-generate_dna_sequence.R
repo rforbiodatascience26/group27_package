@@ -1,15 +1,4 @@
-#' Does the code generate a random DNA sequence?
-#'
-#' @description
-#' The function generates a random DNA sequence of a desired length given by the parameter sequence_length.
-#'
-#' @usage generate_dna_sequence(sequence_length)
-#' @arguments
-#' \item{sequence_length}{An integer specifying the length of the DNA sequence to generate.}
-#'
-#' @return A character string representing the concatenated DNA sequence.
-#'
-#' @examples
-#' sequence_length <- 9
-#' generate_dna_sequence(sequence_length)
-#' # Output will look like: "ATGCGATCA"
+set.seed(123)
+test_that("DNA sequence generated", {
+  expect_equal(generate_dna_sequence(9), "GGGTGTTTG")
+})
