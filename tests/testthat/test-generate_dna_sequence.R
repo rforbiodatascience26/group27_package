@@ -1,4 +1,4 @@
-#' Does the code return the expected value?
+#' Does the code generate a random DNA sequence?
 #'
 #' @description
 #' The function generates a random DNA sequence of a desired length given by the parameter sequence_length.

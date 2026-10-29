@@ -1,4 +1,4 @@
-#' Does the code return the expected value?
+#' Does the code transcribe the dna_string?
 #'
 #' @description
 #' The function transcribes a given DNA sequence by the parameter dna_string.
